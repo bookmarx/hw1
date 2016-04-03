@@ -9,7 +9,6 @@
     -khtml-border-radius: 100px; 
     width: 200px;
     height: 200px;
- 
 }
 
 .grid-container {
@@ -51,8 +50,7 @@ h1, h2, .center {
     font-style: normal;
     font-style: normal;
     font-weight: 200;
-    margin: 0;
-    
+    margin: 0;   
 }
 
 .sectionTitles {
@@ -69,6 +67,7 @@ h1, h2, .center {
     padding-bottom: 30px;
     font-size: 1.3em;
 }
+
 p,i {
     color:#669999;
 }
@@ -87,9 +86,8 @@ a:active {
     color:#000033;
 }
 
-        img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto 
-
-        }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
