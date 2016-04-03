@@ -41,4 +41,55 @@
 
 h1, h2, .center {
     text-align: center;
+    font-style: normal;
+    margin:0;
 }
+
+#logoTitle {
+    font-size: 7em;
+    color:#000033;
+    font-style: normal;
+    font-style: normal;
+    font-weight: 200;
+    margin: 0;
+    
+}
+
+.sectionTitles {
+    font-size: 2em;
+    color:#000033;
+    font-style: normal;
+    font-style: normal;
+    font-weight: 200;
+}
+
+#missionStmt{
+    padding-left: 145px; 
+    padding-right: 145px;
+    padding-bottom: 30px;
+    font-size: 1.3em;
+}
+p,i {
+    color:#669999;
+}
+
+a:link {
+    text-decoration: none;
+    font-size: 20px;
+    color:#000033;
+}
+
+a:hover {
+    color:#669999;
+}
+
+a:active {
+    color:#000033;
+}
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto 
+
+        }
