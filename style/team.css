@@ -1,3 +1,7 @@
+.half {
+    width : 50%
+}
+
 .team-img {
     display: block;
     margin-left: auto;
@@ -6,7 +10,7 @@
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
-    -khtml-border-radius: 100px; 
+    -khtml-border-radius: 100px;
     width: 200px;
     height: 200px;
 }
@@ -14,7 +18,7 @@
 .grid-container {
     width : 100%;
     max-width : 550px;
-    margin: auto;	
+    margin: auto;
 }
 
 #team figcaption {
@@ -28,15 +32,16 @@
 }
 
 .col-1-4{
-    width: 33.00%;
+    width: 50.00%;
+    margin: auto;
 }
 
-/*
+
 @media all and (max-width:750px){
     .col-1-4{ width: 100%; }
 
 }
-*/
+
 
 h1, h2, .center {
     text-align: center;
@@ -45,12 +50,12 @@ h1, h2, .center {
 }
 
 #logoTitle {
-    font-size: 7em;
+    font-size: 8vw;
     color:#000033;
     font-style: normal;
     font-style: normal;
     font-weight: 200;
-    margin: 0;   
+    margin: 0;
 }
 
 .sectionTitles {
@@ -62,13 +67,14 @@ h1, h2, .center {
 }
 
 #missionStmt{
-    padding-left: 145px; 
-    padding-right: 145px;
+    max-width: 768px;
+    margin: auto;
     padding-bottom: 30px;
     font-size: 1.3em;
 }
 
 p,i {
+    font-size: 1em;
     color:#669999;
 }
 
@@ -89,5 +95,5 @@ a:active {
 img {
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto
 }
